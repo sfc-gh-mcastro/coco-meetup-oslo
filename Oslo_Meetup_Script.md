@@ -1,4 +1,4 @@
-# Oslo Meetup Demo Script
+# Oslo Meetup Demo Script - 
 
 > **Dataset:** `MORTGAGE_LENDING_DEMO_DATA.csv` — 369K mortgage applications with approval outcomes.
 > **Goal:** End-to-end ML pipeline from raw CSV to deployed model + Snowflake Intelligence agent.
