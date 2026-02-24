@@ -1,0 +1,12 @@
+-- Load data from stage into table
+-- Run this after uploading CSV to stage via:
+--   snow stage copy "data/MORTGAGE_LENDING_DEMO_DATA.csv" @COCO_DEMO.PUBLIC.MORTGAGE_STAGE
+
+COPY INTO COCO_DEMO.PUBLIC.MORTGAGE_LENDING_DEMO_DATA
+FROM @COCO_DEMO.PUBLIC.MORTGAGE_STAGE/MORTGAGE_LENDING_DEMO_DATA.csv
+FILE_FORMAT = (
+    TYPE = 'CSV' 
+    SKIP_HEADER = 1 
+    FIELD_OPTIONALLY_ENCLOSED_BY = '"' 
+    NULL_IF = ('')
+);
