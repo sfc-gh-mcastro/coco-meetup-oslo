@@ -1,7 +1,7 @@
 # Machine Learning with Snowflake Cortex Code
 
 <a href="https://www.snowflake.com/en/product/features/cortex-code/">
-  <img src="https://www.snowflake.com/wp-content/uploads/2025/06/cortex-code-hero.png" alt="Snowflake Cortex Code" width="600"/>
+  <img src="assets/coco.png" alt="Snowflake Cortex Code" width="600"/>
 </a>
 
 ---
