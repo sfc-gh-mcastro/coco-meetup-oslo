@@ -14,6 +14,12 @@ This repository was presented at the [**Oslo Data & Analytics Meetup**](https://
 
 ---
 
+## What Is Cortex Code (CoCo)?
+
+Cortex Code is an AI-driven intelligent agent integrated into the Snowflake platform, optimized for complex data engineering, analytics, machine learning, and agent-building tasks. It uses an autonomous agent framework to interact directly with your Snowflake environment, with deep understanding of Snowflake's Role-Based Access Control (RBAC), schemas, and best practices.
+
+---
+
 ## What's in This Repo
 
 A machine learning project built entirely using [**Cortex Code**](https://www.snowflake.com/en/product/features/cortex-code/) — Snowflake's AI coding assistant for data & AI work. The project walks through a complete ML workflow from the CLI: data ingestion, exploratory data analysis, feature engineering, model training (XGBoost), explainability (SHAP), model registration, monitoring, and SQL inference — all within Snowflake.
