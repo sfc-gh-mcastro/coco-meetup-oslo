@@ -25,6 +25,10 @@ Cortex Code is an AI-driven intelligent agent integrated into the Snowflake plat
 A machine learning project built entirely using [**Cortex Code**](https://www.snowflake.com/en/product/features/cortex-code/) — Snowflake's AI coding assistant for data & AI work. The project walks through a complete ML workflow from the CLI: data ingestion, exploratory data analysis, feature engineering, model training (XGBoost), explainability (SHAP), model registration, monitoring, and SQL inference — all within Snowflake.
 
 > **Try Cortex Code for free:** [signup.snowflake.com/cortex-code](https://signup.snowflake.com/cortex-code)
+>
+> Check out the script I used [./Oslo_Meetup_Script.md](./Oslo_Meetup_Script.md)
+
+
 
 ---
 
