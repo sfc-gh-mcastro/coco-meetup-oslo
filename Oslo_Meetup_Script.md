@@ -12,19 +12,19 @@
 **1.1 — Explore the data**
 
 ```
-Given the dataset for a mortgage lending prediction exercise, give me a quick overview of the data.
+Given the dataset give me a quick overview of the data.
 ```
 
 **1.2 — Create database and schema**
 
 ```
-Create a database and schema to be used in this project.
+Create a database and schema to be used in this project using.Database is oslo-demo and schema public.
 ```
 
 **1.3 — Upload CSV to stage**
 
 ```
-Upload the CSV data to a stage in the database and schema we just created.
+Upload the CSV data to a stage in the database and schema oslo-demo.public we just created.
 ```
 
 ---
@@ -36,7 +36,7 @@ Upload the CSV data to a stage in the database and schema we just created.
 **2.1 — Load data into a table**
 
 ```
-Load the data from the stage into a table for easier analysis.
+Load the data from the stage into the table for easier analysis. Name it mortgage_leding table.
 ```
 
 **2.2 — Run exploratory analysis**
@@ -120,7 +120,7 @@ What is the best way to start from where I stopped here?
 **5.1 — Create semantic view and agent**
 
 ```
-Create a semantic view named COCO_MORTGAGE_SEMANTIC_VIEW in "COCO-MEETUP-OSLO". Then create a Snowflake Intelligence agent named COCO_MORTGAGE_DEMO_AGENT using that semantic view. The agent should be used to investigate the data from "COCO-MEETUP-OSLO".PUBLIC.MORTGAGE_LENDING.
+Create a semantic view named COCO_MORTGAGE_SEMANTIC_VIEW in "oslo-demo" database. Then create a Snowflake Intelligence agent named COCO_MORTGAGE_DEMO_AGENT using that semantic view. The agent should be used to investigate the data from "oslo-demo".public.mortgage_leding.
 ```
 
 > *This creates the natural-language query interface over the mortgage data.*
